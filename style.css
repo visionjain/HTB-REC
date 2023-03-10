@@ -1,0 +1,322 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* width: 100vw; */
+    /* height: 100vh; */
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+     width: 100vw;
+     height: 100vh;
+}
+
+header{
+    height: 56px;
+    width: 100vw;
+    /* background-color: red; */
+    position: relative;
+    display: inline-block;
+    align-content: center;
+    top: 25px;
+}
+
+.mainlogo{
+    height: 6vh;
+    position: relative;
+    display: inline-block;
+    left: 42%;
+    
+}
+
+.line{
+    height: 1px;
+    width: 100vw;
+    /* background-color: red; */
+    position: relative;
+    display: inline-block;
+    border-top: solid;
+    top: 30px;
+    border-color: rgb(217,218,220);
+}
+
+.buttons{
+    display: grid;
+    /* background-color: red; */
+    height: 40vh;
+    width: 34vw;
+    left: 30%;
+    top: 50px;
+    position: relative;
+    place-items: center;
+    font-weight: bold;
+   
+}
+
+.but1{
+    border: rgb(24,119,242) solid;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: .5rem;
+    border-width: 1px;
+    width: 32vw;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    background-color: rgb(24,119,242);
+    color: rgb(232,242,254);
+    cursor: pointer;
+
+}
+
+.but1t{
+    position: relative;
+    display: inline-block;
+    /* bottom: 1px; */
+}
+
+.but2{
+    border: rgb(25,25,25) solid;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: .5rem;
+    border-width: 1px;
+    width: 32vw;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    background-color: rgb(25,25,25);
+    color: rgb(232,232,232);
+    cursor: pointer;
+
+}
+.but3{
+    border: rgb(122,122,122) solid;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: .5rem;
+    border-width: 1px;
+    width: 32vw;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    background-color: rgb(255,255,255);
+    color: rgb(122,122,122);
+    cursor: pointer;
+
+}
+.but4{
+    border: rgb(122,122,122) solid;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: .5rem;
+    border-width: 1px;
+    width: 32vw;
+    letter-spacing: 1px;
+    padding: 15px;
+    background-color: rgb(255,255,255);
+    color: rgb(122,122,122);
+    cursor: pointer;
+
+}
+
+button:hover{
+    border-color: black;
+    border-width: 3px;
+    transition-duration: 50ms;
+
+}
+
+.line2{
+    height: 1px;
+    width: 13vw;
+    /* background-color: red; */
+    position: relative;
+    display: inline-block;
+    border-top: solid;
+    top: 79px;
+    left: 50%;
+    border-color: rgb(217,218,220);
+}
+
+.line3{
+    height: 1px;
+    width: 13vw;
+    /* background-color: red; */
+    position: relative;
+    display: inline-block;
+    border-top: solid;
+    top: 80px;
+    left: 16%;
+    border-color: rgb(217,218,220);
+}
+
+.or{
+    position: relative;
+    display: inline-block;
+    left: 33%;
+    top: 80px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.details{
+    /* background-color: green; */
+    height: 50vh;
+    width: 40vw;
+    position: relative;
+    display: grid;
+    left: 27vw;
+    top: 16vh;
+    place-items: center;
+
+
+}
+
+.mailadd{
+    /* border: black solid; */
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+    display: block;
+    right: 21vh;
+    bottom: 2vh;
+}
+input{
+    border: black solid;
+    position: relative;
+    display: inline-block;
+    border-color: rgb(135,135,135);
+    padding: 20px;
+    width: 550px;
+    border-radius: 7px;
+    border-width: 1px;
+    bottom: 10px;
+    /* left: 0.8vw; */
+}
+
+.pass{
+    /* border: black solid; */
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+    display: block;
+    right: 14vw;
+    bottom: 2.5vh;
+    padding-top: 15px;
+}
+
+.passbox{
+    position: relative;
+    display: inline-block;
+    bottom: 2vh;
+}
+
+.forgot{
+    /* border: black solid; */
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: large;
+    bottom: 0vh;
+    right: 11.2vw;
+    
+
+}
+
+input:hover{
+    border-color: black;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.checkbox1{
+    background: red;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    display: inline;
+    bottom: -2vh;
+    right: 15.6vw;
+    width: 20px;
+    height: 20px;
+}
+
+.remember{
+    position: relative;
+    display: inline-block;
+    bottom: 0.5vh;
+    right: 11vw;
+    font-size: 18px;
+}
+
+
+.login{
+    position: relative;
+    display: inline-block;
+    border: rgb(30,215,96) solid;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-width: 1px;
+    width: 160px;
+    letter-spacing: 1px;
+    background-color: rgb(30,215,96);
+    color: black;
+    cursor: pointer;
+    border-radius: 100px;
+    font-weight: bold;
+    height: 60px;
+    left: 25vh;
+    top: -8vh;
+
+}
+
+
+.line4{
+    height: 1px;
+    width: 33vw;
+    /* background-color: red; */
+    position: relative;
+    display: inline-block;
+    border-top: solid;
+    top: -2vh;
+    border-color: rgb(217,218,220);
+}
+
+.noacc{
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
+    bottom: -1vh;
+}
+
+.signup{
+    border: rgb(122,122,122) solid;
+    border-radius: 100px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    margin: .5rem;
+    border-width: 1px;
+    width: 32vw;
+    letter-spacing: 1px;
+    padding: 18px;
+    background-color: rgb(255,255,255);
+    color: rgb(122,122,122);
+    cursor: pointer;
+    bottom: -2vh;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    display: inline-block;
+    right: 15px;
+    top: 10px;
+}
