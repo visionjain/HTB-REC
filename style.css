@@ -1,8 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* width: 100vw; */
-    /* height: 100vh; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -180,7 +178,7 @@ button:hover{
     font-size: larger;
     position: relative;
     display: block;
-    right: 21vh;
+    right: 9.7vw;
     bottom: 2vh;
 }
 input{
@@ -189,7 +187,7 @@ input{
     display: inline-block;
     border-color: rgb(135,135,135);
     padding: 20px;
-    width: 550px;
+    width: 30vw;
     border-radius: 7px;
     border-width: 1px;
     bottom: 10px;
@@ -201,7 +199,7 @@ input{
     font-weight: bold;
     font-size: larger;
     position: relative;
-    display: block;
+    display: inline-block;
     right: 14vw;
     bottom: 2.5vh;
     padding-top: 15px;
@@ -237,7 +235,7 @@ input:hover{
     color: white;
     cursor: pointer;
     position: relative;
-    display: inline;
+    display: inline-block;
     bottom: -2vh;
     right: 15.6vw;
     width: 20px;
@@ -248,7 +246,7 @@ input:hover{
     position: relative;
     display: inline-block;
     bottom: 0.5vh;
-    right: 11vw;
+    right: 11.5vw;
     font-size: 18px;
 }
 
@@ -257,11 +255,10 @@ input:hover{
     position: relative;
     display: inline-block;
     border: rgb(30,215,96) solid;
-    border-radius: 0px;
     text-transform: uppercase;
     font-size: 20px;
     border-width: 1px;
-    width: 160px;
+    width: 10vw;
     letter-spacing: 1px;
     background-color: rgb(30,215,96);
     color: black;
@@ -269,7 +266,7 @@ input:hover{
     border-radius: 100px;
     font-weight: bold;
     height: 60px;
-    left: 25vh;
+    left: 11.5vw;
     top: -8vh;
 
 }
@@ -319,4 +316,183 @@ img{
     display: inline-block;
     right: 15px;
     top: 10px;
+}
+
+
+
+
+@media screen and (max-width: 1500px) {
+    .mailadd{
+        right: 8.5vw;
+    }
+    .pass{
+        right: 13.5vw;
+    }
+    .forgot{
+        right: 10vw;
+    }
+    .remember{
+        right: 10vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .mailadd{
+        right: 6.5vw;
+    }
+    .pass{
+        right: 13vw;
+    }
+    .forgot{
+        right: 9vw;
+    }
+    .remember{
+        right: 9vw;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .mailadd{
+        right: 5.5vw;
+    }
+    .pass{
+        right: 13vw;
+    }
+    .forgot{
+        right: 7vw;
+    }
+    .remember{
+        right: 9vw;
+    }
+    .checkbox1{
+        right: 16vw;
+    }
+    .remember{
+        right: 8vw;
+    }
+    img{
+        visibility: hidden;
+    }
+    .but1t{
+        right: 2vw;
+    }
+    .but1{
+        font-size: 12.5px;
+    }
+    .but2{
+        font-size: 12.5px;
+    }
+    .but3{
+        font-size: 14px;
+    }
+    .but4{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .mailadd{
+        right: 3vw;
+    }
+    .pass{
+        right: 12vw;
+    }
+    .forgot{
+        right: 6vw;
+    }
+    .remember{
+        right: 9vw;
+    }
+    .checkbox1{
+        right: 16vw;
+    }
+    .remember{
+        right: 6vw;
+    }
+    img{
+        visibility: hidden;
+    }
+    .but1t{
+        right: 2vw;
+    }
+    .but1{
+        font-size: 12.5px;
+    }
+    .but2{
+        font-size: 12.5px;
+    }
+    .but3{
+        font-size: 14px;
+    }
+    .but4{
+        font-size: 12px;
+    }
+    .login{
+        font-size: 15px;
+        height: 28px;
+        left: 14vw;
+    }
+    .signup{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .mailadd{
+        right: .2vw;
+    }
+    .pass{
+        right: 12vw;
+    }
+    .forgot{
+        right: 6vw;
+    }
+    .remember{
+        right: 9vw;
+    }
+    .checkbox1{
+        right: 18vw;
+    }
+    .remember{
+        right: 6vw;
+    }
+    img{
+        visibility: hidden;
+    }
+    .but1t{
+        right: 2vw;
+    }
+    .but1{
+        font-size: 10px;
+    }
+    .but2{
+        font-size: 10px;
+    }
+    .but3{
+        font-size: 12px;
+    }
+    .but4{
+        font-size: 12px;
+    }
+    .login{
+        font-size: 15px;
+        height: 28px;
+        left: 15vw;
+        top: -3.5vh;
+    }
+    .signup{
+        font-size: 12px;
+    }
+    .noacc{
+        font-size: 20px;
+    }
+    .line2{
+        left: 52vw;
+    }
+    .line3{
+        left: 14vw;
+    }
+
 }
