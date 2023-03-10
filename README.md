@@ -11,4 +11,4 @@ vercel link -- https://htb-vision.vercel.app/
 
 /
 
-azure link -- uploading___
+azure link -- https://agreeable-grass-0b1aad610.2.azurestaticapps.net/
