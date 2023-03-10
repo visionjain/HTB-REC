@@ -526,7 +526,7 @@ img{
     }
     .or{
         font-size: 15px;
-        top: 17vh;
+        top: 10vh;
     }
     .remember{
         visibility: hidden;
@@ -600,14 +600,14 @@ img{
     }
     .line2{
         left: 55vw;
-        top: 17vh;
+        top: 10vh;
     }
     .line3{
         left: 11vw;
-        top: 17vh;
+        top: 10vh;
     }
     .details{
-        top: 27vh;
+        top: 16vh;
     }
     .line4{
         left: -16vw;
