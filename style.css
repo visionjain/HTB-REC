@@ -334,6 +334,9 @@ img{
     .remember{
         right: 10vw;
     }
+    .mainlogo{
+        left: 41.5vw;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -348,6 +351,9 @@ img{
     }
     .remember{
         right: 9vw;
+    }
+    .mainlogo{
+        left: 39vw;
     }
 
 }
@@ -389,6 +395,7 @@ img{
     .but4{
         font-size: 12px;
     }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -435,6 +442,9 @@ img{
     }
     .signup{
         font-size: 15px;
+    }
+    .mainlogo{
+        left: 36vw;
     }
 
 }
