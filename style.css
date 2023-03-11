@@ -141,7 +141,7 @@ button:hover{
     /* background-color: red; */
     position: relative;
     display: inline-block;
-    border-top: solid;
+    border-top: 2.5px solid;
     top: 79px;
     left: 52%;
     border-color: rgb(217,218,220);
@@ -153,7 +153,7 @@ button:hover{
     /* background-color: red; */
     position: relative;
     display: inline-block;
-    border-top: solid;
+    border-top: 2.5px solid;
     top: 80px;
     left: 10%;
     border-color: rgb(217,218,220);
