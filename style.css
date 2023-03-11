@@ -155,14 +155,14 @@ button:hover{
     display: inline-block;
     border-top: 2.5px solid;
     top: 80px;
-    left: 10%;
+    left: 11%;
     border-color: rgb(217,218,220);
 }
 
 .or{
     position: relative;
     display: inline-block;
-    left: 31%;
+    left: 31.5vw;
     top: 80px;
     font-weight: bold;
     font-size: larger;
@@ -196,11 +196,11 @@ input{
     display: inline-block;
     border-color: rgb(135,135,135);
     padding: 20px;
-    width: 30vw;
+    width: 37vw;
     border-radius: 7px;
     border-width: 1px;
     bottom: 10px;
-    /* left: 0.8vw; */
+    left: 3.5vw;
 }
 
 .pass{
@@ -224,7 +224,7 @@ input{
     /* border: black solid; */
     position: relative;
     display: inline-block;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-decoration: underline;
     font-size: large;
     bottom: 0vh;
@@ -246,7 +246,7 @@ input:hover{
     position: relative;
     display: inline-block;
     bottom: -2vh;
-    right: 15.6vw;
+    left: -15.5vw;
     width: 20px;
     height: 20px;
 }
@@ -275,7 +275,7 @@ input:hover{
     border-radius: 100px;
     font-weight: bold;
     height: 60px;
-    left: 11.5vw;
+    left: 18.5vw;
     top: -8vh;
 
 }
@@ -283,11 +283,12 @@ input:hover{
 
 .line4{
     height: 1px;
-    width: 33vw;
+    width: 40vw;
+    left: 3.5vw;
     /* background-color: red; */
     position: relative;
     display: inline-block;
-    border-top: solid;
+    border-top: 2.6px solid;
     top: -2vh;
     border-color: rgb(217,218,220);
 }
@@ -298,6 +299,7 @@ input:hover{
     position: relative;
     display: inline-block;
     bottom: -1vh;
+    left: 4vw;
 }
 
 .signup{
@@ -309,13 +311,14 @@ input:hover{
     font-size: 20px;
     margin: .5rem;
     border-width: 1px;
-    width: 32vw;
+    width: 40vw;
     letter-spacing: 1px;
     padding: 18px;
     background-color: rgb(255,255,255);
     color: rgb(122,122,122);
     cursor: pointer;
     bottom: -2vh;
+    left: 3.4vw;
 }
 
 img{
