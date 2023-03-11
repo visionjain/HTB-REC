@@ -449,7 +449,7 @@ img{
 
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 680px) {
     .mailadd{
         right: .2vw;
     }
@@ -507,7 +507,7 @@ img{
 
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 610px) {
     .mailadd{
         right: 18vw;
         font-size: 15px;
