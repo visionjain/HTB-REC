@@ -66,6 +66,7 @@ header{
     color: rgb(232,242,254);
     cursor: pointer;
     padding: 7px 20px 20px 20px;
+    font-weight: bold;
 
 }
 
@@ -89,6 +90,7 @@ header{
     color: rgb(232,232,232);
     cursor: pointer;
     padding: 10px 20px 20px 20px;
+    font-weight: bold;
 
 }
 .but3{
@@ -105,6 +107,7 @@ header{
     color: rgb(122,122,122);
     cursor: pointer;
     padding: 6px 20px 20px 20px;
+    font-weight: bold;
 
 }
 .but4{
@@ -121,6 +124,7 @@ header{
     color: rgb(122,122,122);
     cursor: pointer;
     padding: 20px;
+    font-weight: bold;
 
 }
 
