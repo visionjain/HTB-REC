@@ -5,13 +5,13 @@
 }
 
 body{
-     width: 100vw;
+     width: 98vw;
      height: 100vh;
 }
 
 header{
     height: 56px;
-    width: 100vw;
+    width: 80vw;
     /* background-color: red; */
     position: relative;
     display: inline-block;
@@ -24,13 +24,13 @@ header{
     height: 6vh;
     position: relative;
     display: inline-block;
-    left: 42%;
+    left: 43vw;
     
 }
 
 .line{
     height: 1px;
-    width: 100vw;
+    width: 98.5vw;
     /* background-color: red; */
     position: relative;
     display: inline-block;
@@ -162,7 +162,7 @@ button:hover{
 .or{
     position: relative;
     display: inline-block;
-    left: 31.5vw;
+    left: 30.8vw;
     top: 80px;
     font-weight: bold;
     font-size: larger;
