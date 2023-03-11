@@ -34,7 +34,7 @@ header{
     /* background-color: red; */
     position: relative;
     display: inline-block;
-    border-top: solid;
+    border-top: 1px solid;
     top: 30px;
     border-color: rgb(217,218,220);
 }
