@@ -245,7 +245,7 @@ input:hover{
     cursor: pointer;
     position: relative;
     display: inline-block;
-    bottom: -2vh;
+    bottom: -3vh;
     left: -15.8vw;
     width: 20px;
     height: 20px;
@@ -254,7 +254,7 @@ input:hover{
 .remember{
     position: relative;
     display: inline-block;
-    bottom: 0.5vh;
+    bottom: -0.5vh;
     right: 11.5vw;
     font-size: 18px;
 }
