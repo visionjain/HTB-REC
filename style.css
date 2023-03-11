@@ -137,19 +137,19 @@ button:hover{
 
 .line2{
     height: 1px;
-    width: 18vw;
+    width: 17vw;
     /* background-color: red; */
     position: relative;
     display: inline-block;
     border-top: 3px solid;
     top: 72px;
-    left: 52%;
+    left: 54%;
     border-color: rgb(217,218,220);
 }
 
 .line3{
     height: 1px;
-    width: 18vw;
+    width: 17vw;
     /* background-color: red; */
     position: relative;
     display: inline-block;
@@ -162,7 +162,7 @@ button:hover{
 .or{
     position: relative;
     display: inline-block;
-    left: 30.8vw;
+    left: 31.8vw;
     top: 80px;
     font-weight: bold;
     font-size: larger;
