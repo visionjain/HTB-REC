@@ -149,13 +149,13 @@ button:hover{
 
 .line3{
     height: 1px;
-    width: 17vw;
+    width: 16vw;
     /* background-color: red; */
     position: relative;
     display: inline-block;
     border-top: 3px solid;
     top: 72px;
-    left: 11%;
+    left: 12%;
     border-color: rgb(217,218,220);
 }
 
@@ -196,7 +196,7 @@ input{
     display: inline-block;
     border-color: rgb(135,135,135);
     padding: 20px;
-    width: 37vw;
+    width: 36vw;
     border-radius: 7px;
     border-width: 1px;
     bottom: 10px;
