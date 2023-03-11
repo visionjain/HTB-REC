@@ -351,9 +351,28 @@ img{
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1350px) {
     .mailadd{
-        right: 6.5vw;
+        right: 8vw;
+    }
+    .pass{
+        right: 13.5vw;
+    }
+    .forgot{
+        right: 10vw;
+    }
+    .remember{
+        right: 10vw;
+    }
+    .mainlogo{
+        left: 43vw;
+    }
+
+}
+
+@media screen and (max-width: 1220px) {
+    .mailadd{
+        right: 7vw;
     }
     .pass{
         right: 13vw;
@@ -364,21 +383,56 @@ img{
     .remember{
         right: 9vw;
     }
+    .checkbox1{
+        right: 16vw;
+    }
+    .remember{
+        right: 9.2vw;
+    }
+    img{
+        visibility: hidden;
+    }
+    .but1t{
+        right: 2vw;
+    }
+    .but1{
+        font-size: 12.5px;
+    }
+    .but2{
+        font-size: 12.5px;
+    }
+    .but3{
+        font-size: 14px;
+    }
+    .but4{
+        font-size: 12px;
+    }
+    .line3{
+        width: 16.5vw;
+        left: 12vw;
+    }
+    .line2{
+        width: 16.5vw;
+        left: 53.5vw;
+    }
+    .or{
+        left: 33vw;
+    }
     .mainlogo{
-        left: 39vw;
+        left: 42vw;
     }
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1020px) {
     .mailadd{
-        right: 5.5vw;
+        right: 5vw;
     }
     .pass{
-        right: 13vw;
+        right: 12.5vw;
     }
     .forgot{
-        right: 7vw;
+        right: 7.5vw;
     }
     .remember{
         right: 9vw;
@@ -407,51 +461,11 @@ img{
     .but4{
         font-size: 12px;
     }
-
-}
-
-@media screen and (max-width: 800px) {
-    .mailadd{
-        right: 3vw;
-    }
-    .pass{
-        right: 12vw;
-    }
-    .forgot{
-        right: 6vw;
-    }
-    .remember{
-        right: 9vw;
-    }
-    .checkbox1{
-        right: 16vw;
-    }
-    .remember{
-        right: 6vw;
-    }
-    img{
-        visibility: hidden;
-    }
-    .but1t{
-        right: 2vw;
-    }
-    .but1{
-        font-size: 12.5px;
-    }
-    .but2{
-        font-size: 12.5px;
-    }
-    .but3{
-        font-size: 14px;
-    }
-    .but4{
-        font-size: 12px;
-    }
-    .login{
+    /* .login{
         font-size: 15px;
         height: 28px;
         left: 14vw;
-    }
+    } */
     .signup{
         font-size: 15px;
     }
@@ -461,15 +475,15 @@ img{
 
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 840px) {
     .mailadd{
-        right: .2vw;
+        right: 3.4vw;
     }
     .pass{
         right: 12vw;
     }
     .forgot{
-        right: 6vw;
+        right: 6.5vw;
     }
     .remember{
         right: 9vw;
@@ -500,9 +514,9 @@ img{
     }
     .login{
         font-size: 15px;
-        height: 28px;
+        height: 38px;
         left: 15vw;
-        top: -3.5vh;
+        top: -4vh;
     }
     .signup{
         font-size: 12px;
@@ -511,25 +525,81 @@ img{
         font-size: 20px;
     }
     .line2{
-        left: 52vw;
+        left: 54vw;
     }
     .line3{
-        left: 14vw;
+        left: 11.5vw;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+    .mailadd{
+        right: 1.2vw;
+    }
+    .pass{
+        right: 11.5vw;
+    }
+    .forgot{
+        right: 4.5vw;
+    }
+
+    .checkbox1{
+        right: 18vw;
+    }
+    .remember{
+        right: 4.5vw;
+    }
+    img{
+        visibility: hidden;
+    }
+    .but1t{
+        right: 2vw;
+    }
+    .but1{
+        font-size: 10px;
+    }
+    .but2{
+        font-size: 10px;
+    }
+    .but3{
+        font-size: 12px;
+    }
+    .but4{
+        font-size: 12px;
+    }
+    .login{
+        font-size: 15px;
+        height: 38px;
+        left: 15vw;
+        top: -4vh;
+    }
+    .signup{
+        font-size: 12px;
+    }
+    .noacc{
+        font-size: 20px;
+    }
+    .line2{
+        left: 55.5vw;
+    }
+    .line3{
+        left: 10vw;
     }
 
 }
 
 @media screen and (max-width: 610px) {
     .mailadd{
-        right: 18vw;
+        right: 25vw;
         font-size: 15px;
     }
     input{
-        left: -8vh;
-        width: 50vw;
+        left: -7vh;
+        width: 54vw;
     }
     .pass{
-        right: 33vw;
+        right: 35vw;
         font-size: 15px;
     }
     .forgot{
@@ -539,6 +609,7 @@ img{
     .or{
         font-size: 15px;
         top: 10vh;
+        left: 22vw;
     }
     .remember{
         visibility: hidden;
@@ -593,7 +664,7 @@ img{
     }
     .login{
         font-size: 15px;
-        height: 28px;
+        height: 38px;
         left: -15vw;
         width: 10vh;
         top: -3.5vh;
@@ -602,7 +673,7 @@ img{
     .signup{
         font-size: 12px;
         width: 65vw;
-        right: 15vw;
+        left: -13vw;
         bottom: 5px;
         position: relative;
         display: inline-block;
@@ -614,11 +685,13 @@ img{
     }
     .line2{
         left: 55vw;
-        top: 10vh;
+        top: 9vh;
+        width: 25vw;
     }
     .line3{
-        left: 11vw;
-        top: 10vh;
+        left: -11.5vw;
+        top: 9vh;
+        width: 25vw;
     }
     .details{
         top: 16vh;
@@ -628,6 +701,10 @@ img{
     }
     .mainlogo{
         left: 32vw;
+    }
+    .line4{
+        width: 63.5vw;
+        left: -13.5vw;
     }
 
 }
