@@ -130,7 +130,7 @@ header{
 
 button:hover{
     border-color: black;
-    border-width: 3px;
+    border-width: 2px;
     transition-duration: 50ms;
 
 }
