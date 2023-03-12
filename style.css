@@ -708,3 +708,123 @@ img{
     }
 
 }
+
+@media screen and (max-width: 420px) {
+    .mailadd{
+        right: 23.5vw;
+        font-size: 15px;
+    }
+    input{
+        left: -7vh;
+        width: 54vw;
+    }
+    .pass{
+        right: 39vw;
+        font-size: 15px;
+    }
+    .forgot{
+        right: 14vw;
+        font-size: 15px;
+    }
+    .or{
+        font-size: 15px;
+        top: 10vh;
+        left: 22vw;
+    }
+    .remember{
+        visibility: hidden;
+       
+    }
+    .checkbox1{
+        /* position: relative;
+        display: inline-block;
+        right: 20vw;
+        height: 14px;
+        width: 14px; */
+        visibility: hidden;
+    }
+    img{
+        visibility: hidden;
+    }
+    .but1t{
+        right: 2vw;
+    }
+    .but1{
+        font-size: 10px;
+        width: 65vw;
+        right: 15vw;
+        position: relative;
+        display: inline-block;
+        border: black solid 1px;
+
+    }
+    .but2{
+        font-size: 10px;
+        width: 65vw;
+        right: 15vw;
+        position: relative;
+        display: inline-block;
+        border: black solid 1px;
+    }
+    .but3{
+        font-size: 12px;
+        width: 65vw;
+        right: 15vw;
+        position: relative;
+        display: inline-block;
+        border: black solid 1px;
+    }
+    .but4{
+        font-size: 12px;
+        width: 65vw;
+        right: 15vw;
+        position: relative;
+        display: inline-block;
+        border: black solid 1px;
+    }
+    .login{
+        font-size: 15px;
+        height: 38px;
+        left: -15vw;
+        width: 10vh;
+        top: -3.5vh;
+        font-size: 10px;
+    }
+    .signup{
+        font-size: 12px;
+        width: 65vw;
+        left: -13vw;
+        bottom: 5px;
+        position: relative;
+        display: inline-block;
+    }
+    .noacc{
+        font-size: 15px;
+        left: -13.5vw;
+        bottom: 4px;
+    }
+    .line2{
+        left: 55vw;
+        top: 9vh;
+        width: 25vw;
+    }
+    .line3{
+        left: -11.5vw;
+        top: 9vh;
+        width: 25vw;
+    }
+    .details{
+        top: 16vh;
+    }
+    .line4{
+        left: -16vw;
+    }
+    .mainlogo{
+        left: 32vw;
+    }
+    .line4{
+        width: 63.5vw;
+        left: -13.5vw;
+    }
+
+}
